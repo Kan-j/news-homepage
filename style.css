@@ -48,6 +48,10 @@ body{
 }
 .overlay{
     display: none;
+     grid-column: 1/-1;
+    grid-row: -1;
+    width: 0vh;
+    height: 0vw; 
 }
 
 .main-nav{

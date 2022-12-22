@@ -12,11 +12,13 @@ console.log(overlay);
 
 
 menuIcon.addEventListener('click', ()=>{
+    document.querySelector('.overlay').style.display = 'block'
     overlay.style.display = 'block'
     mobile_menu.style.display ='block'
 })
 
 overlay.addEventListener('click', ()=>{
+    document.querySelector('.overlay').style.display = 'none'
     overlay.style.display = 'none'
     mobile_menu.style.display ='none'  
 })
