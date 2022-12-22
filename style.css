@@ -46,6 +46,9 @@ body{
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 }
+.overlay{
+    display: none;
+}
 
 .main-nav{
     grid-column: 1/-1;
